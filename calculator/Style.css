@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: linear-gradient(150deg, blue ,green);
+}
+.container{
+    height: 100vh;
+    margin-top: 50px;
+    max-width: 540px;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 3rem;
+    text-align: left;
+    background-color: hsl(0, 0%, 40%);
+}
+
+
+button{
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+button:hover{
+  background-color: hsl(0, 0%, 40%);
+}
+
+.btn-op{
+    background-color: lightcoral;
+}
+
+.btn-op:hover{
+    background-color: hsl(0, 0%, 40%);
+}
+
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+
+}
